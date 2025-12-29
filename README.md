@@ -15,7 +15,6 @@ An end-to-end project that collects robotics-related news articles, builds a sea
 - `index/` : (not included) vector index artifacts
 - `rag/` : retrieval + prompting + QA logic
 - `dashboard/` : UI app
-- `configs/` : config files (paths, model names, etc.)
 
 ## Setup
 - Copy `.env.example` to `.env` and fill in required keys.
