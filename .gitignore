@@ -1,0 +1,34 @@
+# --- secrets ---
+.env
+*.key
+
+# --- python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# --- jupyter ---
+.ipynb_checkpoints/
+
+# --- mac/windows noise ---
+.DS_Store
+Thumbs.db
+
+# --- project outputs / large artifacts ---
+data/
+datasets/
+raw/
+processed/
+outputs/
+runs/
+logs/
+wandb/
+index/
+indices/
+*.faiss
+*.index
+*.pkl
+*.joblib
+*.sqlite
